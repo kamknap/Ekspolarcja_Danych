@@ -1,8 +1,4 @@
 """
-Laboratorium 8Z - Dane finansowe
-Klasyfikacja: ocena ryzyka wydania karty kredytowej
-Autor: Kamil Knapik, gr 1
-
 Pipeline:
   1. Wczytanie i wstepna analiza danych
   2. Identyfikacja wartosci odstajacych (metoda IQR)
