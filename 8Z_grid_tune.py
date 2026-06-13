@@ -11,7 +11,7 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_s
 
 RANDOM_STATE = 42
 sns.set_style("whitegrid")
-OUT = "/sessions/optimistic-nifty-lovelace/mnt/outputs"
+OUT = "."
 ck = pickle.load(open(f"{OUT}/ckpt.pkl", "rb"))
 X_train_bal_10, y_train_bal = ck["X_train_bal_10"], ck["y_train_bal"]
 X_test_10, y_test = ck["X_test_10"], ck["y_test"]

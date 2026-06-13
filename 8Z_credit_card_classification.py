@@ -1,8 +1,4 @@
 """
-Laboratorium 8Z - Dane finansowe
-Klasyfikacja: ocena ryzyka wydania karty kredytowej
-Autor: Kamil Knapik, gr 1
-
 Pipeline:
   1. Wczytanie i wstepna analiza danych
   2. Identyfikacja wartosci odstajacych (metoda IQR)
@@ -35,8 +31,8 @@ from imblearn.over_sampling import SMOTE
 RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
 sns.set_style("whitegrid")
-OUT = "/sessions/optimistic-nifty-lovelace/mnt/outputs"
-DATA = "/sessions/optimistic-nifty-lovelace/mnt/uploads/dataset.csv"
+OUT = "."
+DATA = "dataset.csv"
 
 results = {}
 
